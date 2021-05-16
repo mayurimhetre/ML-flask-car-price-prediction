@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New</title>
+</head>
+<body>
+			</br>
+			</br>
+            {% if pred <= 0 %}
+				<h1>Prediction: <span id = "link2" class='danger'>Sorry you cannot sell this car</span></h1>
+
+			{% elif pred >0  %}
+				<h1>Prediction: <span  id = "link2" class='safe'>You Can Sell The Car at {{ pred }} Rupees </span></h1>
+
+			{% endif %}
+
+<style>
+        body {
+           background-image: url(http://www.joburgchiropractor.co.za/images/background.jpg);
+           text-align: center;
+
+        }
+        #link2 {
+            border-radius: 20px;
+            height: 40px;
+            font-size: 30px;
+            text-align: center;
+            color: #0000e6;
+        }
+</style>
+</body>
+</html>
