@@ -15,9 +15,13 @@ heroku link :https://ml-car-price.herokuapp.com/
 
 ![image](https://user-images.githubusercontent.com/68188457/118434796-4f650880-b6fb-11eb-8452-4b820992eb6c.png)
 
-Issues Faced:
+**Issues Faced:**
+
 1.pip freeze > requirements.txt -- i had given requirement.txt name so model build up failed in heroku platform.
+
 2.gunicorn module name was missing so after deploying the model in heroku ,application error was coming on url.
+
 ---- Solved this issue with heroku CLI ----
-command - heroku login
+
+3.command - heroku login
           heroku logs --app ml-car-price
