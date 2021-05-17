@@ -24,4 +24,5 @@ heroku link :https://ml-car-price.herokuapp.com/
 ---- Solved this issue with heroku CLI ----
 
 3.command - heroku login
-          heroku logs --app ml-car-price
+
+4.heroku logs --app ml-car-price
