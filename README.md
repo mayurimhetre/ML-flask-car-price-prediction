@@ -3,7 +3,7 @@
 
 heroku link :https://ml-car-price.herokuapp.com/
 
-**This project was developed in Pycarm and for front end designing Flask is used.**
+**This project was developed in Pycharm and for front end designing Flask is used.**
 1. mayuri_01.py--Linear Regression is used to model the data present "car data.csv" file and r-squared value is 0.87.
 2. random_forest_regression_model_01.pkl -- pickle file generated **
 3. requirements.txt -- contains the modules which are used at the time of deplying the python file in new environment.
