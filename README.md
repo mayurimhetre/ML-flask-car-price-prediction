@@ -61,3 +61,12 @@ The issues were resolved using the **Heroku CLI**:
 heroku login
 heroku logs --app ml-car-price
 ```
+
+### Technologies Used
+
+- Python
+- Flask
+- Scikit-learn
+- HTML/CSS
+- Heroku
+- Gunicorn
